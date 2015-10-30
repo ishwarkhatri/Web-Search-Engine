@@ -1,0 +1,7 @@
+boat,1,1,0
+casablanca,1,1,1
+disaster,1,1,2
+german,1,1,3
+movie,2,2,4
+occupation,1,1,6
+titanic,4,1,7
