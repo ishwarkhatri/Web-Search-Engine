@@ -13,6 +13,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
+import edu.binghamton.my.common.Constants;
 import edu.binghamton.my.model.Dictionary;
 import edu.binghamton.my.model.Document;
 import edu.binghamton.my.model.Posting;
@@ -25,11 +26,24 @@ public class DictionaryGenerator {
 	private static long totalWordCount = 0;
 
 	public static void main(String[] args) throws IOException {
+		if(args.length != 1) {
+			echo(Constants.FILE_PATH_ABSENT_ERROR_MESSAGE);
+			return;
+		}
+
+		echo(Constants.PROJECT_START_MESSAGE);
 		String path = args[0];
+
+		echo(Constants.FILE_INFO_FETCHING_MESSAGE + path);
 		File docsPath = new File(path);
 		List<File> filePaths = new ArrayList<File>();
 
+		//Retrieve all file paths present in directory
 		getFiles(docsPath, filePaths);
+		echo(filePaths.size() + Constants.FILES_TO_PROCESS_MESSAGE);
+
+		echo(Constants.EXECUTION_START_MESSAGE);
+		echo(Constants.TOKENIZING_INFO_MESSAGE);
 		for(File f : filePaths) {
 			Document doc = new Document(f);
 			List<String> tokens = Tokenizer.tokenize(f);
@@ -39,48 +53,86 @@ public class DictionaryGenerator {
 			writeToDictionary(tokens, doc.getDocumentNumber());
 		}
 
+		echo(Constants.TASK_COMPLETED_MESSAGE);
+		echo(Constants.EXPORTING_DOC_FILE_MESSAGE);
 		//Output document file
-		BufferedWriter bw = null;
-		BufferedWriter bw2 = null;
+		outputDocumentsInfo();
+
+		echo(Constants.EXPORTING_DICTIONARY_AND_POSTINGS_FILE_MESSAGE);
+		//Output Dictionary and Postings files
+		outputDictionaryAndPostings();
+
+		echo(Constants.EXPORTING_SUMMARY_FILE_MESSAGE);
+		//Output Summary file
+		outputSummaryFile();
+
+		echo(Constants.FILES_EXPORT_COMPLETED_MESSAGE);
+		echo(Constants.PROGRAM_END_MESSGAE);
+	}
+
+	private static void outputSummaryFile() throws IOException {
 		BufferedWriter bw3 = null;
-		try {
-			bw = new BufferedWriter(new OutputStreamWriter(new FileOutputStream("Documents.txt")));
-			for(Document doc : documentList) {
-				bw.write(doc.getDocumentNumber() + "," + doc.getHeadline() + "," + doc.getWordCount() + "," + doc.getSnippet() + "\n");
-			}
-		} finally {
-			bw.flush();
-			bw.close();
-		}
-		
-		try {
-			bw = new BufferedWriter(new OutputStreamWriter(new FileOutputStream("Dictionary.txt")));
-			bw2 = new BufferedWriter(new OutputStreamWriter(new FileOutputStream("Postings.txt")));
-			bw3 = new BufferedWriter(new OutputStreamWriter(new FileOutputStream("Total.txt")));
-
-			List<String> termList = new ArrayList<String>();
-			termList.addAll(dictionaryMap.keySet());
-			Collections.sort(termList);
-			long offSet = 0;
-			for(int i = 0; i < termList.size(); i++) {
-				Dictionary dict = dictionaryMap.get(termList.get(i));
-				bw.write(dict.getTerm() + "," + dict.getCollectionFrequencyOfTerm() + "," + dict.getDocumentFrequencyOfTerm() + "," + offSet + "\n");
-				offSet += dict.getDocumentFrequencyOfTerm();
-
-				List<Posting> postings = dict.getPostings();
-				Collections.sort(postings);
-				for(Posting p : postings) {
-					bw2.write(p.getDocumentId() + "," + p.getTermFrequency() + "\n");
-				}
-			}
+		try{
+			bw3 = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(Constants.SUMMARY_FILE_NAME)));
 			bw3.write("Total word count: " + totalWordCount);
 		} finally {
-			bw.flush();
-			bw2.flush();
 			bw3.flush();
-			bw.close();
-			bw2.close();
 			bw3.close();
+		}
+		
+	}
+
+	private static void outputDictionaryAndPostings() throws IOException {
+		BufferedWriter dictFileBuffWriter = null;
+		BufferedWriter postingsFileBuffWriter = null;
+		
+		try {
+			dictFileBuffWriter = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(Constants.DICTIONARY_FILE_NAME)));
+			postingsFileBuffWriter = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(Constants.POSTINGS_FILE_NAME)));
+			List<String> termList = new ArrayList<String>();
+
+			//Save all terms from dictionary to a list
+			termList.addAll(dictionaryMap.keySet());
+
+			//Sort the list alphabetically
+			Collections.sort(termList);
+
+			long offSet = 0;
+			for(int i = 0; i < termList.size(); i++) {
+				//Get dictionary of term and write information in file
+				Dictionary dict = dictionaryMap.get(termList.get(i));
+				dictFileBuffWriter.write(dict.getTerm() + "," + dict.getCollectionFrequencyOfTerm() + "," + dict.getDocumentFrequencyOfTerm() + "," + offSet + "\n");
+
+				//Increment offset for the term
+				offSet += dict.getDocumentFrequencyOfTerm();
+
+				//Get postings of a term and sort alphabetically
+				List<Posting> postings = dict.getPostings();
+				Collections.sort(postings);
+
+				//Write postings to file
+				for(Posting p : postings) {
+					postingsFileBuffWriter.write(p.getDocumentId() + "," + p.getTermFrequency() + "\n");
+				}
+			}
+		} finally {
+			dictFileBuffWriter.flush();
+			dictFileBuffWriter.close();
+			postingsFileBuffWriter.flush();
+			postingsFileBuffWriter.close();
+		}
+	}
+
+	private static void outputDocumentsInfo() throws IOException {
+		BufferedWriter docsInfoBuffWriter = null;
+		try {
+			docsInfoBuffWriter = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(Constants.DOCUMENTS_FILE_NAME)));
+			for(Document doc : documentList) {
+				docsInfoBuffWriter.write(doc.getDocumentNumber() + "," + doc.getHeadline() + "," + doc.getWordCount() + "," + doc.getSnippet() + "\n");
+			}
+		} finally {
+			docsInfoBuffWriter.flush();
+			docsInfoBuffWriter.close();
 		}
 	}
 
@@ -118,6 +170,11 @@ public class DictionaryGenerator {
 		}
 	}
 
+	/**
+	 * This method stores file paths recursively digging into sub-directories
+	 * @param docsPath A given path of a directory or file
+	 * @param filePaths A list containing path of all files present in a given directory
+	 */
 	private static void getFiles(File docsPath, List<File> filePaths) {
 		if(docsPath.isDirectory()) {
 			File[] subFiles = docsPath.listFiles();
@@ -128,4 +185,7 @@ public class DictionaryGenerator {
 		}
 	}
 
+	private static void echo(String info) {
+		System.out.println(info);
+	}
 }

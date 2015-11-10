@@ -26,10 +26,10 @@ public class Document extends DocId {
 		while(true) {
 			String line = reader.readLine();
 			if(line.equalsIgnoreCase("<headline>")) {
-				this.headline = reader.readLine();
+				this.headline = reader.readLine().replaceAll(",", "").trim();
 			}
 			if(line.equalsIgnoreCase("<body>")) {
-				this.snippet = reader.readLine().replaceAll("\\<.*?>", "");
+				this.snippet = reader.readLine().replaceAll("\\<.*?>", "").replaceAll(",", "").trim();
 			}
 			if(this.headline != null && this.snippet != null) {
 				break;

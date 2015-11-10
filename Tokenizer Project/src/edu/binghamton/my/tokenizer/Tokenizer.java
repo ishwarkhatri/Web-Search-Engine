@@ -27,7 +27,10 @@ public class Tokenizer {
 				data = removeSingleLengthCharsAndStopWords(data);
 				
 				data = removeParanthesisAndQuotes(data);
-				
+
+				//This method is introduced in part2
+				data = removeSpecialCharacters(data);
+
 				data = performStemming(data);
 
 				tokens = getFinalTerms(data);
@@ -49,6 +52,10 @@ public class Tokenizer {
 		}
 		}
 		return completeTokens;
+	}
+
+	private static String removeSpecialCharacters(String data) {
+		return data.replaceAll("[^\\w\\s]", "");
 	}
 
 	private static String[] getFinalTerms(String data) {
