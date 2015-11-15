@@ -1,5 +1,5 @@
 package edu.binghamton.my.model;
 
-public class DocId {
+public class DocNumber {
 	protected static int globalDocCount = 0;
 }

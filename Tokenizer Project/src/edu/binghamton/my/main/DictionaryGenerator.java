@@ -23,7 +23,6 @@ public class DictionaryGenerator {
 
 	private static List<Document> documentList = new ArrayList<Document>();
 	private static Map<String,Dictionary> dictionaryMap = new HashMap<String, Dictionary>();
-	private static long totalWordCount = 0;
 
 	public static void main(String[] args) throws IOException {
 		if(args.length != 1) {
@@ -35,11 +34,12 @@ public class DictionaryGenerator {
 		String path = args[0];
 
 		echo(Constants.FILE_INFO_FETCHING_MESSAGE + path);
-		File docsPath = new File(path);
+		File file = new File(path);
 		List<File> filePaths = new ArrayList<File>();
 
 		//Retrieve all file paths present in directory
-		getFiles(docsPath, filePaths);
+		Set<String> fileNames = new HashSet<String>();
+		getFiles(file, fileNames, filePaths);
 		echo(filePaths.size() + Constants.FILES_TO_PROCESS_MESSAGE);
 
 		echo(Constants.EXECUTION_START_MESSAGE);
@@ -49,8 +49,8 @@ public class DictionaryGenerator {
 			List<String> tokens = Tokenizer.tokenize(f);
 			doc.setWordCount(tokens.size());
 			documentList.add(doc);
-			totalWordCount += tokens.size();
-			writeToDictionary(tokens, doc.getDocumentNumber());
+			//totalWordCount += tokens.size();
+			addTokensToDictionary(tokens, doc.getDocumentNumber());
 		}
 
 		echo(Constants.TASK_COMPLETED_MESSAGE);
@@ -74,7 +74,7 @@ public class DictionaryGenerator {
 		BufferedWriter bw3 = null;
 		try{
 			bw3 = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(Constants.SUMMARY_FILE_NAME)));
-			bw3.write("Total word count: " + totalWordCount);
+			bw3.write("Total word count: " + dictionaryMap.size());
 		} finally {
 			bw3.flush();
 			bw3.close();
@@ -127,6 +127,7 @@ public class DictionaryGenerator {
 		BufferedWriter docsInfoBuffWriter = null;
 		try {
 			docsInfoBuffWriter = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(Constants.DOCUMENTS_FILE_NAME)));
+			Collections.sort(documentList);
 			for(Document doc : documentList) {
 				docsInfoBuffWriter.write(doc.getDocumentNumber() + "," + doc.getHeadline() + "," + doc.getWordCount() + "," + doc.getSnippet() + "\n");
 			}
@@ -136,7 +137,7 @@ public class DictionaryGenerator {
 		}
 	}
 
-	private static void writeToDictionary(List<String> tokens, int documentNumber) {
+	private static void addTokensToDictionary(List<String> tokens, int documentNumber) {
 		for(String term : tokens) {
 			Dictionary termDictionary = dictionaryMap.get(term);
 			if(termDictionary == null) {
@@ -175,13 +176,14 @@ public class DictionaryGenerator {
 	 * @param docsPath A given path of a directory or file
 	 * @param filePaths A list containing path of all files present in a given directory
 	 */
-	private static void getFiles(File docsPath, List<File> filePaths) {
-		if(docsPath.isDirectory()) {
-			File[] subFiles = docsPath.listFiles();
+	private static void getFiles(File path, Set<String> fileNameSet, List<File> filePaths) {
+		if(path.isDirectory()) {
+			File[] subFiles = path.listFiles();
 			for (File file : subFiles)
-				getFiles(file, filePaths);
+				getFiles(file, fileNameSet, filePaths);
 		} else {
-			filePaths.add(docsPath);
+			if(!"".equalsIgnoreCase(path.getName()) && !fileNameSet.contains(path.getName()))
+				filePaths.add(path);
 		}
 	}
 

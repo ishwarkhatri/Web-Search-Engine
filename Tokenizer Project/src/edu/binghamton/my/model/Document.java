@@ -6,18 +6,21 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class Document extends DocId {
+public class Document extends DocNumber implements Comparable<Document> {
 
-	int documentNumber;
+	private int documentNumber;
 
-	String headline;
+	private String docID;
 
-	long wordCount;
+	private String headline;
 
-	String snippet;
+	private long wordCount;
+
+	private String snippet;
 
 	public Document(File docPath) throws IOException {
 		this.documentNumber = ++globalDocCount;
+		this.docID = docPath.getName();
 		init(docPath);
 	}
 
@@ -36,6 +39,18 @@ public class Document extends DocId {
 			}
 		}
 		reader.close();
+	}
+
+	public int compareTo(Document doc) {
+		if(this.documentNumber > 1)
+			return 1;
+		if(this.documentNumber < 1)
+			return -1;
+		return 0;
+	}
+
+	public String getDocID() {
+		return docID;
 	}
 
 	public int getDocumentNumber() {
@@ -59,5 +74,5 @@ public class Document extends DocId {
 	public void setSnippet(String snippet) {
 		this.snippet = snippet;
 	}
-	
+
 }
