@@ -91,11 +91,11 @@ public class Tokenizer {
 				word = word.substring(1);
 			}
 
-			if (word.endsWith("ies") && (!word.endsWith("aies") || !word.endsWith("aies"))) {
+			if (word.endsWith("ies") && !(word.endsWith("aies") || word.endsWith("aies"))) {
 				word = word.substring(0, word.length() - 3) + "y";
-			} else if (word.endsWith("es") && (!word.endsWith("ees") || !word.endsWith("oes"))) {
+			} else if (word.endsWith("es") && !(word.endsWith("ees") || word.endsWith("oes"))) {
 				word = word.substring(0, word.length() - 2) + "e";
-			} else if (word.endsWith("s") && (!word.endsWith("us") || !word.endsWith("ss"))) {
+			} else if (word.endsWith("s") && !(word.endsWith("us") || word.endsWith("ss"))) {
 				word = word.substring(0, word.length() - 1);
 			}
 			transformedData += word + " ";

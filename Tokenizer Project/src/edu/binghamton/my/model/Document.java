@@ -26,8 +26,8 @@ public class Document extends DocNumber implements Comparable<Document> {
 
 	private void init(File docPath) throws IOException {
 		BufferedReader reader = new BufferedReader(new InputStreamReader(new FileInputStream(docPath)));
-		while(true) {
-			String line = reader.readLine();
+		String line;
+		while((line = reader.readLine()) != null) {
 			if(line.equalsIgnoreCase("<headline>")) {
 				this.headline = reader.readLine().replaceAll(",", "").trim();
 			}
