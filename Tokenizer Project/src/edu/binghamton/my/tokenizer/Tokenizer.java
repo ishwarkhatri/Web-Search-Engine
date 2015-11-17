@@ -22,7 +22,7 @@ public class Tokenizer {
 			while ((line = br.readLine()) != null) {
 				String data = line.replaceAll("\\<.*?>", "").toLowerCase();
 				
-				data = removeHyphens(data);
+				data = removeHyphensAndUnderscores(data);
 				
 				data = removeSingleLengthCharsAndStopWords(data);
 				
@@ -127,7 +127,7 @@ public class Tokenizer {
 				|| word.equalsIgnoreCase("in") || word.equalsIgnoreCase("with"));
 	}
 
-	private static String removeHyphens(String data) {
-		return data.replaceAll("\\-", " ");
+	private static String removeHyphensAndUnderscores(String data) {
+		return data.replaceAll("\\-", " ").replaceAll("\\_", "");
 	}
 }
