@@ -53,11 +53,9 @@ public class TokenizerPart1 {
 		String[] words = data.split(" ");
 		for (String word : words) {
 			if (word.trim().length() > 1) {
-				System.out.println(word);
 				try {
 					bw.write(word + "\n");
 				} catch (IOException e) {
-					// TODO Auto-generated catch block
 					e.printStackTrace();
 				}
 			}

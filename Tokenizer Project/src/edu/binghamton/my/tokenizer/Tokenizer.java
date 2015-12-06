@@ -11,6 +11,25 @@ import java.util.List;
 
 public class Tokenizer {
 
+	public static String[] tokenize(String query) {
+		String data = query.replaceAll("\\<.*?>", "").toLowerCase();
+		
+		data = removeHyphensAndUnderscores(data);
+		
+		data = removeSingleLengthCharsAndStopWords(data);
+		
+		data = removeParanthesisAndQuotes(data);
+
+		//This method is introduced in part2
+		data = removeSpecialCharacters(data);
+
+		data = performStemming(data);
+
+		String[] tokens = getFinalTerms(data);
+
+		return tokens;
+	}
+
 	public static List<String> tokenize(File filePath) {
 		String[] tokens = null;
 		List<String> completeTokens = new ArrayList<String>();
@@ -20,20 +39,7 @@ public class Tokenizer {
 			String line = "";
 			
 			while ((line = br.readLine()) != null) {
-				String data = line.replaceAll("\\<.*?>", "").toLowerCase();
-				
-				data = removeHyphensAndUnderscores(data);
-				
-				data = removeSingleLengthCharsAndStopWords(data);
-				
-				data = removeParanthesisAndQuotes(data);
-
-				//This method is introduced in part2
-				data = removeSpecialCharacters(data);
-
-				data = performStemming(data);
-
-				tokens = getFinalTerms(data);
+				tokens = tokenize(line);
 				
 				if(tokens.length != 0) {
 					for(String term : tokens) {

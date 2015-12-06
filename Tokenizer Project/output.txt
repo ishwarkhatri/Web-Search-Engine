@@ -1,1 +1,165 @@
-ambitious
+The Query is: Pinochet Killings
+The Document is: C:\Users\Ishh\Downloads\Assignments\IR\Project part 2\docs\d30003t\APW19981017.0151
+The Headline is: Lawmaker: Britain must question Gen. Pinochet about killings
+The Probability is: -12.743721056764475
+The Snippet is: LONDON (AP) _ An influential lawmaker from the governing Labor Party on Saturday backed Spanish requests to question former Chilean dictator Gen. Augusto Pinochet in London for back surgery on allegations of genocide and terrorism. ''There've been something like a total of 3197 cases'' of
+
+The Document is: C:\Users\Ishh\Downloads\Assignments\IR\Project part 2\docs\d30003t\NYT19981018.0123
+The Headline is: A MAVERICK SPANISH JUDGE'S TWO-YEAR QUEST FOR PINOCHET'S ARREST
+The Probability is: -13.345722352776924
+The Snippet is:  PARIS _ A stubbornly independent judge who more than once has challenged the Spanish government Baltasar Garzon was ridiculed when he first set out to pursue the most notorious right-wing generals in South America for human rights crimes committed in the
+
+The Document is: C:\Users\Ishh\Downloads\Assignments\IR\Project part 2\docs\d30003t\APW19981017.0507
+The Headline is: British police arrest Pinochet on Spanish warrant
+The Probability is: -15.175190322992714
+The Snippet is: LONDON (AP) _ Former Chilean dictator Gen. Augusto Pinochet has been arrested by British police on a Spanish extradition warrant despite protests from Chile that he is entitled to diplomatic immunity. Two Spanish judges are seeking to question Pinochet about the
+
+The Document is: C:\Users\Ishh\Downloads\Assignments\IR\Project part 2\docs\d30003t\APW19981017.0306
+The Headline is: British police arrest Pinochet on murder charges
+The Probability is: -15.35726232317346
+The Snippet is: LONDON (AP) _ British police said Saturday they have arrested former Chilean dictator Gen. Augusto Pinochet on allegations of murdering Spanish citizens during his years in power. Pinochet 82 in London for surgery was held Friday night after British authorities received a Spanish extradition warrant a
+
+The Document is: C:\Users\Ishh\Downloads\Assignments\IR\Project part 2\docs\d30003t\APW19981018.0410
+The Headline is: Castro disagrees with arrest of Pinochet
+The Probability is: -15.520461194397242
+The Snippet is: OPORTO Portugal (AP) _ President Fidel Castro said Sunday he disagreed with the arrest in London of former Chilean dictator Augusto Pinochet calling it a case of ``international meddling.'' Castro compared the action with the establishment in Rome in August of an International Criminal Court a move Cuba has
+
+The Document is: C:\Users\Ishh\Downloads\Assignments\IR\Project part 2\docs\d30003t\NYT19981018.0098
+The Headline is: PINOCHET'S ARREST PUTS BLAIR'S GOVERNMENT IN A TIGHT SPOT
+The Probability is: -15.670562153603818
+The Snippet is:  LONDON _ Gen. Augusto Pinochet the former Chilean dictator arrested here at the request of a Spanish judge remained sequestered under police guard Sunday awaiting a potentially devastating court hearing to weigh his extradition on charges of genocide terrorism and murder.
+
+The Document is: C:\Users\Ishh\Downloads\Assignments\IR\Project part 2\docs\d30003t\APW19981017.0477
+The Headline is: British police arrest Pinochet on murder charges
+The Probability is: -15.87380204257145
+The Snippet is: LONDON (AP) _ Eight years after his turbulent regime ended former Chilean strongman Gen. Augusto Pinochet is being called to account by Spanish authorities for the deaths detention and torture of political opponents. Responding to a Spanish extradition warrant British police
+
+The Document is: C:\Users\Ishh\Downloads\Assignments\IR\Project part 2\docs\d30003t\NYT19981018.0185
+The Headline is: ACCUSED OFFICIALS HAVE FEWER PLACES TO HIDE
+The Probability is: -15.929451933977237
+The Snippet is:  WASHINGTON _ The arrest of Gen. Augusto Pinochet shows the growing significance of international human-rights law suggesting that officials accused of atrocities have fewer places to hide these days even if they are carrying diplomatic passports legal scholars say.
+
+The Document is: C:\Users\Ishh\Downloads\Assignments\IR\Project part 2\docs\d30003t\NYT19981018.0160
+The Headline is: IN SANTIAGO NEWS OF PINOCHET'S ARREST STIRS ONLY SMALL PROTEST
+The Probability is: -15.975671941462707
+The Snippet is:  SANTIAGO Chile _ Perhaps as a sign of how much Chileans wish to forget their years of polarized politics and repression under Gen. Augusto Pinochet the immediate popular response here to the sensational news of his arrest in London has been remarkable for
+
+The Document is: C:\Users\Ishh\Downloads\Assignments\IR\Project part 2\docs\d30034t\NYT19981124.0353
+The Headline is: REPORTS OF MILITARY EXECUTIONS IN EAST TIMOR TO BE INVESTIGATED
+The Probability is: -16.183291645506422
+The Snippet is:  JAKARTA Indonesia _ Indonesia's National Commission on Human Rights will investigate accusations that soldiers executed as many as 50 people this month in the troubled province of East Timor in a military operation against armed rebels the government said
+
+The Document is: C:\Users\Ishh\Downloads\Assignments\IR\Project part 2\docs\d31001t\NYT19981029.0366
+The Headline is: WORDS OF PRETORIA REPORT: `EXTRAJUDICIAL KILLING'
+The Probability is: -16.33507410907302
+The Snippet is:  PRETORIA South Africa _ Following are excerpts from the final report issued by South Africa's Truth and Reconciliation Commission on Thursday:   PRIMARY FINDING   On the basis of the evidence available to it the primary finding of the Commission is that:
+
+The Document is: C:\Users\Ishh\Downloads\Assignments\IR\Project part 2\docs\d30003t\NYT19981017.0177
+The Headline is: ACCEDING TO SPAIN BRITAIN ARRESTS FORMER CHILEAN LEADER AUGUSTO
+The Probability is: -16.439089104426454
+The Snippet is:  BUENOS AIRES Argentina _ Gen. Augusto Pinochet who ruled Chile as a despot for 17 years has been arrested in London after Spain asked that he be extradited for the presumed murders of hundreds of Chilean and Spanish citizens the British authorities announced
+
+The Document is: C:\Users\Ishh\Downloads\Assignments\IR\Project part 2\docs\d30051t\APW19981029.0281
+The Headline is: Bosnian Serb pleads guilty to 14 murders at U.N. tribunal
+The Probability is: -16.54552059046034
+The Snippet is: THE HAGUE Netherlands (AP) _ Handing the Yugoslav war crimes tribunal only its third conviction a Bosnian Serb Thursday pleaded guilty to 14 murders. Goran Jelisic 30 faces a maximum life prison term for the killings. Because he pleaded innocent to a genocide charge he will
+
+The Document is: C:\Users\Ishh\Downloads\Assignments\IR\Project part 2\docs\d31022t\APW19981030.1041
+The Headline is: Fire at Halloween teen dance kills 60
+The Probability is: -16.800520679648663
+The Snippet is: GOTEBORG Sweden (AP) _ A fire turned a dance hall jammed with teen-age Halloween revelers into a deathtrap killing 60 people and injuring 162 others in Sweden's second-largest city. Police earlier had reported 65 dead but backed off that figure
+
+The Document is: C:\Users\Ishh\Downloads\Assignments\IR\Project part 2\docs\d30056t\APW19981026.0225
+The Headline is: Muslim leader in Chechnya escapes attempt on life
+The Probability is: -17.07276902177548
+The Snippet is: MOSCOW (AP) _ A bomb exploded in a car carrying a senior Muslim cleric in breakaway Chechnya on Thursday but he was not hurt Russian news agencies reported. Mufti Akhmad Khadzhi Kadirov was approaching his home in the Chechen capital of Grozny when the bomb went off under his Mercedes
+
+The Document is: C:\Users\Ishh\Downloads\Assignments\IR\Project part 2\docs\d30016t\APW19981122.0381
+The Headline is: Swissair CEO defends installation of in-flight entertainment
+The Probability is: -17.100372837629347
+The Snippet is: ZURICH Switzerland (AP) _ Swissair ``did everything correctly'' in installing a state-of-the-art entertainment system switched off last month in the wake of the crash of Flight 111 the airline's chief executive said in an interview published Sunday. Swissair acted voluntarily to disconnect the video-on-demand
+
+The Document is: C:\Users\Ishh\Downloads\Assignments\IR\Project part 2\docs\d30034t\APW19981101.0202
+The Headline is: Three soldiers and a civilian killed in East Timor
+The Probability is: -17.131144452091227
+The Snippet is: JAKARTA Indonesia (AP) _ Assailants killed three soldiers and a civilian in the disputed territory of East Timor Indonesia's official Antara news agency reported Sunday. A fourth soldier was missing and believed killed. The military blamed pro-independence activists in the stabbing
+
+The Document is: C:\Users\Ishh\Downloads\Assignments\IR\Project part 2\docs\d31001t\APW19981026.0787
+The Headline is: Report: South African truth panel to condemn ANC
+The Probability is: -17.284970968711736
+The Snippet is: JOHANNESBURG South Africa (AP) _ The institution exploring apartheid's horrors will issue a report that finds the African National Congress shares blame for human rights violations as it struggled to overcome white rule. The 3500-page report by the Truth and Reconciliation Commission
+
+The Document is: C:\Users\Ishh\Downloads\Assignments\IR\Project part 2\docs\d30034t\APW19981106.0551
+The Headline is: Indonesian army slams East Timor terrorist attack threat
+The Probability is: -17.354769679986116
+The Snippet is: JAKARTA Indonesia (AP) _ Indonesia's military said Friday that it was ready to act against a threat from an East Timor rebel group to launch terrorist attacks. ``We will not tolerate any activity that threatens economic or military installations in East Timor or elsewhere in Indonesia''
+
+The Document is: C:\Users\Ishh\Downloads\Assignments\IR\Project part 2\docs\d30044t\APW19981113.0541
+The Headline is: Kurdish rebel leader detained in Rome
+The Probability is: -17.391647395783025
+The Snippet is: ROME (AP) _ Abdullah Ocalan leader of Kurdish insurgents who has been sought for years by Turkey has been detained in Rome after stepping off a plane from Moscow Turkish and Italian officials said Friday. Necati Bilican Turkey's police chief said his country would do
+
+The Document is: C:\Users\Ishh\Downloads\Assignments\IR\Project part 2\docs\d31013t\NYT19981026.0446
+The Headline is: KILLING OF DOCTOR BECOMES A FACTOR IN POLITICAL RACES
+The Probability is: -17.572534838491567
+The Snippet is:  The killing of Dr. Barnett Slepian a gynecologist in Buffalo who performed abortions has become a factor in at least two campaigns in New York say political consultants and some campaign advisers.   In the race for attorney general the Democratic candidate
+
+The Document is: C:\Users\Ishh\Downloads\Assignments\IR\Project part 2\docs\d30051t\NYT19981001.0377
+The Headline is: MAN WHO CLAIMS TO HAVE SURVIVED KOSOVO MASSACRE DESCRIBES
+The Probability is: -17.62753784713478
+The Snippet is:  GOLUBOVAC Yugoslavia _ A 42-year-old man who says he is the lone survivor of a massacre in which 13 ethnic Albanians were summarily shot and killed in this village in Kosovo recalled Thursday how he was herded into a garden with other men and told to
+
+The Document is: C:\Users\Ishh\Downloads\Assignments\IR\Project part 2\docs\d31022t\APW19981030.1046
+The Headline is: At least 60 killed in fire at Halloween dance in Sweden
+The Probability is: -17.62753784713478
+The Snippet is: GOTEBORG Sweden (AP) _ A fire turned a Swedish dance hall jammed with teen-age Halloween revelers into a deathtrap killing 60 people and injuring 155. The fast-spreading fire that broke out just a few minutes before midnight Thursday gutted the building and left rescuers facing a
+
+The Document is: C:\Users\Ishh\Downloads\Assignments\IR\Project part 2\docs\d30016t\APW19981105.0853
+The Headline is: Temperature reached 300 degrees (570F) in doomed Swissair Flight
+The Probability is: -17.65163550166877
+The Snippet is: ZURICH Switzerland (AP) _ Temperatures rose to 300 degrees (570 degrees F) without leaving traces of fire in the front part of Swissair Flight 111 before it crashed an in-house publication of the airline said Thursday. There still is no indication of the source of the heat said the
+
+The Document is: C:\Users\Ishh\Downloads\Assignments\IR\Project part 2\docs\d30044t\APW19981113.0895
+The Headline is: Kurdish rebel leader detained in Rome; Turkey seeks extradition
+The Probability is: -17.67052835074906
+The Snippet is: ROME (AP) _ The leader of a 14-year-old Kurdish insurgency considered a terrorist by Turkey and its most-wanted criminal has been arrested in Rome setting up a major battle with Italy over his extradition. Abdullah Ocalan was arrested after stepping off a plane from
+
+The Document is: C:\Users\Ishh\Downloads\Assignments\IR\Project part 2\docs\d30044t\APW19981113.0896
+The Headline is: Kurdish rebel leader detained in Rome; Turkey seeks extradition
+The Probability is: -17.67052835074906
+The Snippet is: ROME (AP) _ The leader of a 14-year-old Kurdish insurgency considered a terrorist by Turkey and its most-wanted criminal has been arrested in Rome setting up a major battle with Italy over his extradition. Abdullah Ocalan was arrested after stepping off a plane from
+
+The Document is: C:\Users\Ishh\Downloads\Assignments\IR\Project part 2\docs\d30034t\APW19981120.0282
+The Headline is: Indonesian lawmakers chide Portuguese effort to extradite Suharto
+The Probability is: -17.703809097358253
+The Snippet is: JAKARTA Indonesia (AP) _ Indonesian legislators on Friday chided a Portuguese effort to extradite former President Suharto describing the proposal as impossible and unreasonable. Portugal's attorney general's office is examining a request from lawmaker Nuno Correia da Silva that Suharto be extradited for
+
+The Document is: C:\Users\Ishh\Downloads\Assignments\IR\Project part 2\docs\d30010t\APW19981107.0116
+The Headline is: Militants pull out all stops to halt accord that targets militants
+The Probability is: -17.89307977122904
+The Snippet is: JERUSALEM (AP) _ Islamic militants are pulling out all the stops to keep the new U.S.-brokered Israeli-Palestinian peace accord from becoming reality. In recent days suicide bombers have attacked an Israeli school bus in the Gaza Strip and Jerusalem's outdoor market. Last month
+
+The Document is: C:\Users\Ishh\Downloads\Assignments\IR\Project part 2\docs\d30056t\NYT19981208.0294
+The Headline is: SEVERED HEADS OF 4 KIDNAPPED WESTERNERS FOUND IN CHECHNYA
+The Probability is: -17.894336959670284
+The Snippet is:  MOSCOW _ The severed heads of four kidnapping victims _ identified as three Britons and a New Zealander _ were found Tuesday on the side of a road in Chechnya the breakaway region on Russia's southern border that emerged undefeated from a brutal war
+
+The Document is: C:\Users\Ishh\Downloads\Assignments\IR\Project part 2\docs\d30042t\APW19981125.0886
+The Headline is: UN chief doesn't rule out Libyan visit U.N. officials optimistic
+The Probability is: -18.072104233230622
+The Snippet is: UNITED NATIONS (AP) _ Secretary-General Kofi Annan said Wednesday that he may travel to Libya next week in hopes of closing a deal to try two Libyan suspects in the Pan Am Lockerbie bombing. Annan is heading to North Africa beginning Thursday to resume a
+
+The Document is: C:\Users\Ishh\Downloads\Assignments\IR\Project part 2\docs\d30051t\APW19981014.0564
+The Headline is: U.N. tribunal to resume probe of alleged atrocities in Kosovo
+The Probability is: -18.201232947344806
+The Snippet is: THE HAGUE Netherlands (AP) _ Yugoslav war crimes tribunal investigators plan to return to Kosovo and resume their probe of alleged atrocities in the troubled province a tribunal official said Wednesday. Visas that were denied earlier by Yugoslav authorities have now
+
+The Document is: C:\Users\Ishh\Downloads\Assignments\IR\Project part 2\docs\d30042t\APW19981125.0903
+The Headline is: UN chief doesn't rule out Libyan visit U.N. officials optimistic
+The Probability is: -18.25704755507502
+The Snippet is: UNITED NATIONS (AP) _ Secretary-General Kofi Annan said Wednesday that he is considering a trip to Libya next week that could close a deal to try Libyan suspects in the Pan Am Lockerbie bombing. Annan is heading to North Africa beginning Thursday to resume a
+
+The Document is: C:\Users\Ishh\Downloads\Assignments\IR\Project part 2\docs\d31001t\APW19981008.0841
+The Headline is: Torturers need counseling too conference hears
+The Probability is: -18.287462557094116
+The Snippet is: CAPE T

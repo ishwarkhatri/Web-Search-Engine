@@ -14,18 +14,32 @@ public class Dictionary extends GlobalOffset {
 	private Set<Integer> docIdsOfTerm = new HashSet<Integer>();
 
 	private int offset;
-	
+
+	private long documentFrequencyOfTerm;
+
 	private List<Posting> postings = new ArrayList<Posting>();
+
+	public Dictionary(String[] inputs) {
+		this.term = inputs[0];
+		this.collectionFrequencyOfTerm = Long.parseLong(inputs[1]);
+		this.documentFrequencyOfTerm = Long.parseLong(inputs[2]);
+		this.offset = Integer.parseInt(inputs[3]);
+	}
 
 	public Dictionary(String term, int docId) {
 		this.term = term;
 		this.collectionFrequencyOfTerm++;
 		this.docIdsOfTerm.add(docId);
 		this.offset = globalOffset++;
+		this.documentFrequencyOfTerm++;
 	}
 
 	public void incrementCollectionFrequency() {
 		this.collectionFrequencyOfTerm++;
+	}
+
+	public void incrementDocumentFrequency() {
+		this.documentFrequencyOfTerm++;
 	}
 
 	public String getTerm() {
@@ -45,7 +59,8 @@ public class Dictionary extends GlobalOffset {
 	}
 
 	public long getDocumentFrequencyOfTerm() {
-		return docIdsOfTerm.size();
+		return this.documentFrequencyOfTerm;
+		//return docIdsOfTerm.size();
 	}
 
 	public int getOffset() {
@@ -66,7 +81,7 @@ public class Dictionary extends GlobalOffset {
 
 	public void addDocIdOfTerm(int documentNumber) {
 		this.docIdsOfTerm.add(documentNumber);
-		this.offset++;
+		//this.offset++;
 	}
 
 }

@@ -18,5 +18,19 @@ public class Constants {
 	public static final String EXPORTING_SUMMARY_FILE_MESSAGE = "Exporting Summary file: " + SUMMARY_FILE_NAME;
 	public static final String FILES_EXPORT_COMPLETED_MESSAGE = "Files exported successfully\n";
 	public static final String PROGRAM_END_MESSGAE = "*** Tokenization Completed ***";
-	
+	public static final String QUERY_EXECUTION_START_MESSAGE = "\n *** Starting Query Execution ***\n";
+	public static final String ENTER_QUERY_MESSAGE = "Enter query: ";
+	public static final String EXIT = "EXIT";
+	public static final String QUERY_PROCESSING_ERROR_MESSAGE = "Error occurred while query processing!";
+	public static final String ERROR_LOADING_FILES_TO_MEMORY_MESSAGE = "Error occured while loading files into memory ";
+	public static final String LOADING_DOCUMENTS_FILE_MESSAGE = "Loading documents file in memory...";
+	public static final String FILE_LOADING_COMPLETED_MESSAGE = "File loading completed\n";
+	public static final String LOADING_WORD_COUNT_FILE_MESSAGE = "Loading word count file in memory...";
+	public static final String LOADING_DICTIONARY_AND_POSTINGS_FILES_MESSAGE = "Loading dictionary and postings files in memory...";
+	public static final String TERM_NOT_PRESENT_MESSAGE = "Term not present in collection";
+	public static final String QUERY_PRINT_MESSAGE = "The Query is: ";
+	public static final String DOCUMENT_PRINT_MESSAGE = "The Document is: ";
+	public static final String HEADLINE_PRINT_MESSAGE = "The Headline is: ";
+	public static final String PROBABILITY_PRINT_MESSAGE = "The Probability is: ";
+	public static final String SNIPPET_PRINT_MESSAGE = "The Snippet is: ";
 }

@@ -10,7 +10,7 @@ public class Document extends DocNumber implements Comparable<Document> {
 
 	private int documentNumber;
 
-	private String docID;
+	private String docPath;
 
 	private String headline;
 
@@ -18,9 +18,17 @@ public class Document extends DocNumber implements Comparable<Document> {
 
 	private String snippet;
 
+	public Document(String[] data) {
+		this.documentNumber = Integer.parseInt(data[0]);
+		this.wordCount = Long.parseLong(data[1]);
+		this.headline = data[2];
+		this.snippet = data[3];
+		this.docPath = data[4];
+	}
+
 	public Document(File docPath) throws IOException {
 		this.documentNumber = ++globalDocCount;
-		this.docID = docPath.getName();
+		this.docPath = docPath.getAbsolutePath();
 		init(docPath);
 	}
 
@@ -31,8 +39,13 @@ public class Document extends DocNumber implements Comparable<Document> {
 			if(line.equalsIgnoreCase("<headline>")) {
 				this.headline = reader.readLine().replaceAll(",", "").trim();
 			}
-			if(line.equalsIgnoreCase("<body>")) {
+			if(line.equalsIgnoreCase("<text>")) {
 				this.snippet = reader.readLine().replaceAll("\\<.*?>", "").replaceAll(",", "").trim();
+				while(this.snippet != null && this.snippet.split(" ").length < 40) {
+					this.snippet += " " + reader.readLine().replaceAll("\\<.*?>", "").replaceAll(",", "").trim();
+				}
+				//If asked make snippet size as exact 40 words
+
 			}
 			if(this.headline != null && this.snippet != null) {
 				break;
@@ -49,8 +62,8 @@ public class Document extends DocNumber implements Comparable<Document> {
 		return 0;
 	}
 
-	public String getDocID() {
-		return docID;
+	public String getDocPath() {
+		return docPath;
 	}
 
 	public int getDocumentNumber() {
@@ -73,6 +86,15 @@ public class Document extends DocNumber implements Comparable<Document> {
 	}
 	public void setSnippet(String snippet) {
 		this.snippet = snippet;
+	}
+
+	@Override
+	public String toString() {
+		return this.getDocumentNumber() + "," 
+				+ this.getWordCount() + "," 
+				+ this.getHeadline() + "," 
+				+ this.getSnippet() + "," 
+				+ this.getDocPath();
 	}
 
 }

@@ -1,5 +1,7 @@
 package edu.binghamton.my.main;
 
+import static edu.binghamton.my.common.Utilities.echo;
+
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileOutputStream;
@@ -44,8 +46,10 @@ public class DictionaryGenerator {
 
 		echo(Constants.EXECUTION_START_MESSAGE);
 		echo(Constants.TOKENIZING_INFO_MESSAGE);
+
+		Document doc = null;
 		for(File f : filePaths) {
-			Document doc = new Document(f);
+			doc = new Document(f);
 			List<String> tokens = Tokenizer.tokenize(f);
 			doc.setWordCount(tokens.size());
 			documentList.add(doc);
@@ -68,6 +72,7 @@ public class DictionaryGenerator {
 
 		echo(Constants.FILES_EXPORT_COMPLETED_MESSAGE);
 		echo(Constants.PROGRAM_END_MESSGAE);
+
 	}
 
 	private static void outputSummaryFile() throws IOException {
@@ -129,7 +134,7 @@ public class DictionaryGenerator {
 			docsInfoBuffWriter = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(Constants.DOCUMENTS_FILE_NAME)));
 			Collections.sort(documentList);
 			for(Document doc : documentList) {
-				docsInfoBuffWriter.write(doc.getDocumentNumber() + "," + doc.getHeadline() + "," + doc.getWordCount() + "," + doc.getSnippet() + "\n");
+				docsInfoBuffWriter.write(doc.toString() + "\n");
 			}
 		} finally {
 			docsInfoBuffWriter.flush();
@@ -146,13 +151,14 @@ public class DictionaryGenerator {
 				Posting posting = new Posting(documentNumber, 1);
 				termDictionary.getPostings().add(posting);
 
-				Set<Integer> docIds = new HashSet<Integer>();
-				docIds.add(documentNumber);
+				/*Set<Integer> docIds = new HashSet<Integer>();
+				docIds.add(documentNumber);*/
 
 				dictionaryMap.put(term, termDictionary);
 			} else {
 				termDictionary.incrementCollectionFrequency();
 				termDictionary.addDocIdOfTerm(documentNumber);
+				termDictionary.incrementDocumentFrequency();
 
 				boolean docPresent = false;
 				for(Posting p : termDictionary.getPostings()) {
@@ -182,12 +188,9 @@ public class DictionaryGenerator {
 			for (File file : subFiles)
 				getFiles(file, fileNameSet, filePaths);
 		} else {
-			if(!"".equalsIgnoreCase(path.getName()) && !fileNameSet.contains(path.getName()))
+			//if(!"".equalsIgnoreCase(path.getName()) && !fileNameSet.contains(path.getName()))
 				filePaths.add(path);
 		}
 	}
 
-	private static void echo(String info) {
-		System.out.println(info);
-	}
 }
