@@ -1,4 +1,10 @@
-The Query is: Pinochet Killings
+The Query is: pino killu
+No relevant documents present for this query!
+
+The Query is: pinochu killu
+No relevant documents present for this query!
+
+The Query is: pinochet killings
 The Document is: C:\Users\Ishh\Downloads\Assignments\IR\Project part 2\docs\d30003t\APW19981017.0151
 The Headline is: Lawmaker: Britain must question Gen. Pinochet about killings
 The Probability is: -12.743721056764475
@@ -162,4 +168,135 @@ The Snippet is: UNITED NATIONS (AP) _ Secretary-General Kofi Annan said Wednesda
 The Document is: C:\Users\Ishh\Downloads\Assignments\IR\Project part 2\docs\d31001t\APW19981008.0841
 The Headline is: Torturers need counseling too conference hears
 The Probability is: -18.287462557094116
-The Snippet is: CAPE T
+The Snippet is: CAPE TOWN South Africa (AP) _ Torturers and bombers who carried out atrocities defending or fighting apartheid need counseling to ensure they do not repeat their crimes an expert for South Africa's reconciliation body said Thursday. Addressing local and international experts Charles
+
+The Document is: C:\Users\Ishh\Downloads\Assignments\IR\Project part 2\docs\d31001t\NYT19981028.0331
+The Headline is: SOUTH AFRICAN PANEL TO WITHHOLD DATA IMPLICATING DE KLERK
+The Probability is: -18.305960247372006
+The Snippet is:  JOHANNESBURG South Africa _ Facing a court challenge the Truth and Reconciliation Commission said Wednesday that it would withhold at least temporarily the parts of its final report that implicate South Africa's last apartheid-era president F.W. de Klerk in illegal acts.
+
+The Document is: C:\Users\Ishh\Downloads\Assignments\IR\Project part 2\docs\d30042t\APW19981020.1108
+The Headline is: Libyan leader says he wants improved relationship with United
+The Probability is: -18.319284686960906
+The Snippet is: LONDON (AP) _ Libyan leader Moammar Gadhafi said the suspects in the Lockerbie bombing are ''very happy'' to be tried in the Netherlands and he hoped the trial would lead to a better relationship with the United States. ''We can solve this problem very easily'' he told the British
+
+The Document is: C:\Users\Ishh\Downloads\Assignments\IR\Project part 2\docs\d30005t\APW19981105.0282
+The Headline is: Bin Laden `hero' to some who warn U.S. against his capture
+The Probability is: -18.35693957948854
+The Snippet is: ISLAMABAD Pakistan (AP) _ An Islamic militant group on Thursday threatened to retaliate if Saudi dissident Osama bin Laden is arrested and described Washington's No. 1 enemy as a ``hero'' to Muslims worldwide. Bin Laden believed to be in Afghanistan and a top aide were
+
+The Document is: C:\Users\Ishh\Downloads\Assignments\IR\Project part 2\docs\d31028t\APW19981004.0574
+The Headline is: U.S. taxpayers will pay huge sums to rebuild Puerto Rican homes
+The Probability is: -18.386381884766948
+The Snippet is: SAN JUAN Puerto Rico (AP) _ At a shelter in Puerto Rico last week Hillary Rodham Clinton spoke of a dlrs 39 million dollar U.S. grant to rebuild hurricane-ravaged homes. But two weeks after Hurricane Georges pummeled this U.S. territory thousands still languish in schools community centers
+
+The Document is: C:\Users\Ishh\Downloads\Assignments\IR\Project part 2\docs\d31011t\APW19981025.0231
+The Headline is: Typhoon Babs heads toward south China flooding Taiwan
+The Probability is: -18.38860574718263
+The Snippet is: TAIPEI Taiwan (AP) _ Typhoon Babs brought torrential rains and landslides to Taiwan and lashed Hong Kong with strong winds Sunday after killing more than 150 people in the Philippines and leaving hundreds of thousands homeless. The Central Weather Bureau said that at 3 p.m. (0700 GMT) the
+
+The Document is: C:\Users\Ishh\Downloads\Assignments\IR\Project part 2\docs\d31011t\APW19981025.0412
+The Headline is: Typhoon Babs heads toward south China flooding Taiwan
+The Probability is: -18.38860574718263
+The Snippet is: TAIPEI Taiwan (AP) _ Typhoon Babs brought torrential rains and landslides to Taiwan and lashed Hong Kong with strong winds Sunday after killing at least 156 people in the Philippines and leaving hundreds of thousands homeless. The Hong Kong Observatory said that at 10 p.m. (1400 GMT) the
+
+The Document is: C:\Users\Ishh\Downloads\Assignments\IR\Project part 2\docs\d30010t\NYT19981106.0468
+The Headline is: JERUSALEM EXPLOSION KILLS BOMBERS INJURES 24 IMPERILS PEACE
+The Probability is: -18.471104592030244
+The Snippet is:  JERUSALEM _ A red Fiat belching smoke sent shoppers fleeing moments before it exploded outside a bustling marketplace on Friday morning killing the two bombers injuring 24 other people and disabling the U.S.-brokered peace effort.   The Israeli Cabinet immediately suspended deliberations on the
+
+The Document is: C:\Users\Ishh\Downloads\Assignments\IR\Project part 2\docs\d31013t\NYT19981025.0236
+The Headline is: WEB SITE OWNER SAYS HE HAD NO ADVANCE WORD ON DOCTOR'S SLAYING
+The Probability is: -18.48904759622705
+The Snippet is:  Neal Horsley a 54-year-old computer programmer in Carrollton Ga. does not understand what the fuss is about.   Three years ago he established a Web site called ``The Nuremberg Files'' a list attempting in his words ``to record the
+
+The Document is: C:\Users\Ishh\Downloads\Assignments\IR\Project part 2\docs\d31002t\APW19981003.0470
+The Headline is: Pope John Paul II beatifies controversial World War II cardinal
+The Probability is: -18.50079766190983
+The Snippet is: MARIJA BISTRICA Croatia (AP) _ Declaring him a martyr of the faith Pope John Paul II on Saturday honored Croatia's World War II cardinal a hero to Roman Catholics but long a symbol of divisions in the Balkans. Half a million od people watched with delight and gratitude as
+
+The Document is: C:\Users\Ishh\Downloads\Assignments\IR\Project part 2\docs\d31002t\APW19981003.0473
+The Headline is: Pope John Paul II beatifies controversial World War II cardinal
+The Probability is: -18.510463234032713
+The Snippet is: MARIJA BISTRICA Croatia (AP) _ Declaring him a martyr of the faith Pope John Paul II on Saturday honored Croatia's World War II cardinal a hero to Roman Catholics but long a symbol of divisions in the Balkans. Half a million od people watched with delight and gratitude as
+
+The Document is: C:\Users\Ishh\Downloads\Assignments\IR\Project part 2\docs\d31002t\APW19981003.0180
+The Headline is: Precede ZAGREB
+The Probability is: -18.516208526068496
+The Snippet is: MARIJA BISTRICA Croatia (AP) _ Bestowing on him the ``radiant badge of martyrdom'' Pope John Paul II on Saturday honored Croatia's World War II cardinal a hero to Roman Catholics but long a symbol of divisions in the Balkans. Before a huge crowd spread over several muddy hillsides
+
+The Document is: C:\Users\Ishh\Downloads\Assignments\IR\Project part 2\docs\d31002t\APW19981003.0170
+The Headline is: Precede ZAGREB
+The Probability is: -18.52001648917251
+The Snippet is: MARIJA BISTRICA Croatia (AP) _ Bestowing on him the ``radiant badge of martyrdom'' Pope John Paul II on Saturday honored Croatia's World War II cardinal a hero to Roman Catholics but long a symbol of divisions in the Balkans. Before a huge crowd spread over several muddy hillsides
+
+The Document is: C:\Users\Ishh\Downloads\Assignments\IR\Project part 2\docs\d30016t\NYT19981029.0472
+The Headline is: HEAT DAMAGE FOUND IN WIRES OF SWISSAIR VIDEO SYSTEM
+The Probability is: -18.540648814330293
+The Snippet is:  WASHINGTON _ Investigators looking into the crash last month of Swissair Flight 111 off the coast of Nova Scotia have found ``heat damage'' in wires from the plane's in-flight entertainment system prompting the airline to disconnect the system on all of its jumbo
+
+The Document is: C:\Users\Ishh\Downloads\Assignments\IR\Project part 2\docs\d30056t\APW19981208.0876
+The Headline is: Officials: Heads of four kidnapped foreigners found
+The Probability is: -18.56437484252229
+The Snippet is: GROZNY Russia (AP) _ Chechen authorities found the decapitated heads of four kidnapped foreigners Tuesday near a remote village after a two-month search in the breakaway region in southern Russia. An Associated Press reporter saw the severed heads near the
+
+The Document is: C:\Users\Ishh\Downloads\Assignments\IR\Project part 2\docs\d31028t\APW19981003.0141
+The Headline is: Georges goes down in history as `the hurricane that wouldn't die'
+The Probability is: -18.566171325444756
+The Snippet is: SAN JUAN Puerto Rico (AP) _ It plowed over and past 17 Caribbean islands crashing into the lives of more than 30 million people. As each island fell prey to Hurricane Georges' battering winds the casualties mounted. They are mounting still. And as they do island nations are
+
+The Document is: C:\Users\Ishh\Downloads\Assignments\IR\Project part 2\docs\d30010t\APW19981106.0520
+The Headline is: Car bomb explodes; Israel suspends ratification of peace accord
+The Probability is: -18.707080317800468
+The Snippet is: JERUSALEM (AP) _ A car bomb exploded Friday in a Jerusalem market crowded with Israelis shopping for the Sabbath. The blast killed two apparently the assailants and wounded 21 Israelis. In response Israel's Cabinet suspended implementation of the new peace accord with the Palestinians.
+
+The Document is: C:\Users\Ishh\Downloads\Assignments\IR\Project part 2\docs\d31031t\NYT19981009.0452
+The Headline is: CONGRESS EXTENDS DEADLINE ON STALLED SPENDING TALKS
+The Probability is: -18.746451405981944
+The Snippet is:  WASHINGTON _ Budget negotiations faltered Friday prompting Congress to delay until midnight Monday its deadline for passing a spending bill to keep the government open.   Republican leaders vowed they would not let the government shut down. At the same time many rank-and-file members of Congress
+
+The Document is: C:\Users\Ishh\Downloads\Assignments\IR\Project part 2\docs\d31002t\NYT19981003.0187
+The Headline is: POPE BEATIFIES A CROAT FANNING ENMITIES
+The Probability is: -18.768831714570403
+The Snippet is:  MARIJA BISTRICA Croatia _ Hailing the World War II archbishop of Zagreb as a martyr to ``the atrocities of the Communist system'' Pope John Paul II beatified him Saturday.   Beatification is the final step before sainthood. But by paying
+
+The Document is: C:\Users\Ishh\Downloads\Assignments\IR\Project part 2\docs\d31022t\APW19981030.1037
+The Headline is: Fire at Halloween teen dance kills 60
+The Probability is: -18.770208053769416
+The Snippet is: GOTEBORG Sweden (AP) _ A fire turned a dance hall jammed with teen-age Halloween revelers into a deathtrap killing 60 people and injuring 162 others in Sweden's second-largest city. Police earlier had reported 65 dead but backed off that figure
+
+The Document is: C:\Users\Ishh\Downloads\Assignments\IR\Project part 2\docs\d31013t\NYT19981027.0421
+The Headline is: ABORTION CLINIC IN BUFFALO VOWS TO CONTINUE SLAIN DOCTOR'S WORK
+The Probability is: -18.891337076004906
+The Snippet is:  BUFFALO N.Y. _ With federal marshals posted outside and protesters waving pictures of aborted fetuses from the sidewalk the clinic where Dr. Barnett A. Slepian performed abortions until he was slain on Friday night reopened here Tuesday and its director
+
+The Document is: C:\Users\Ishh\Downloads\Assignments\IR\Project part 2\docs\d30010t\APW19981106.0572
+The Headline is: Car bomb explodes; Israel suspends ratification of peace accord
+The Probability is: -18.940484156543235
+The Snippet is: JERUSALEM (AP) _ A car bomb blew up Friday in a Jerusalem market crowded with Israelis shopping for the Sabbath. The blast killed two assailants wounded 21 Israelis and prompted Israel to suspend implementation of the peace accord with the Palestinians.
+
+The Document is: C:\Users\Ishh\Downloads\Assignments\IR\Project part 2\docs\d30005t\NYT19981021.0378
+The Headline is: U.S. SEES BROOKLYN CONNECTION TO EMBASSY BOMBINGS
+The Probability is: -19.422044254806906
+The Snippet is:  NEW YORK _ Several months after the bombing of the World Trade Center in February 1993 one of the suspects tried to bargain with federal prosecutors in New York offering inside information about the bomb plot in exchange for a lighter sentence.
+
+The Document is: C:\Users\Ishh\Downloads\Assignments\IR\Project part 2\docs\d31038t\NYT19981021.0378
+The Headline is: U.S. SEES BROOKLYN CONNECTION TO EMBASSY BOMBINGS
+The Probability is: -19.422044254806906
+The Snippet is:  NEW YORK _ Several months after the bombing of the World Trade Center in February 1993 one of the suspects tried to bargain with federal prosecutors in New York offering inside information about the bomb plot in exchange for a lighter sentence.
+
+The Document is: C:\Users\Ishh\Downloads\Assignments\IR\Project part 2\docs\d31028t\NYT19981020.0178
+The Headline is: GEORGES WAS AN ISLAND HOPPER
+The Probability is: -19.464593120884228
+The Snippet is:  For 11 days last month Hurricane Georges plowed across the Caribbean killing at least 500 people and inflicting property damage estimated at more than $5 billion as it weaved through nearly a dozen countries before expiring as an early fall rainstorm
+
+The Document is: C:\Users\Ishh\Downloads\Assignments\IR\Project part 2\docs\d31038t\NYT19981005.0386
+The Headline is: EMBASSY BOMB SUSPECT KNOWN FOR RELIGIOUSNESS WIT TEMPER
+The Probability is: -19.53792324295027
+The Snippet is:  MORONI Comoros _ The man accused of directing the bomb attack on the American Embassy in Kenya came of age in this impoverished Indian Ocean archipelago a land where gifted teen-agers leave home to enroll in the radical Islamic academies of Libya Sudan and
+
+The Document is: C:\Users\Ishh\Downloads\Assignments\IR\Project part 2\docs\d31038t\NYT19981005.0454
+The Headline is: EMBASSY BOMB SUSPECT KNOWN FOR RELIGIOUSNESS WIT TEMPER
+The Probability is: -19.55095870711453
+The Snippet is:  MORONI Comoros _ The man accused of directing the bomb attack on the American Embassy in Kenya came of age in this impoverished Indian Ocean archipelago a land where gifted teen-agers leave home to enroll in the radical Islamic academies of Libya Sudan and
+

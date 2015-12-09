@@ -33,4 +33,5 @@ public class Constants {
 	public static final String HEADLINE_PRINT_MESSAGE = "The Headline is: ";
 	public static final String PROBABILITY_PRINT_MESSAGE = "The Probability is: ";
 	public static final String SNIPPET_PRINT_MESSAGE = "The Snippet is: ";
+	public static final String NO_RELEVANT_DOCS_PRESENT_MESSAGE = "No relevant documents present for this query!";
 }
