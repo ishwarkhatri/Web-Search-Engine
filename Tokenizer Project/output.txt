@@ -1,9 +1,32 @@
-The Query is: pinochet killings
-No relevant documents present for this query!
+The Query is: Pinochet killings
+The Document is: C:\Users\Ishh\Downloads\Assignments\IR\Project part 2\temp1\APW19981017.0151
+The Headline is: Lawmaker: Britain must question Gen. Pinochet about killings
+The Probability is: -12.943935937093393
+The Snippet is: LONDON (AP) _ An influential lawmaker from the governing Labor Party on Saturday backed Spanish requests to question former Chilean dictator Gen. Augusto Pinochet in London for back surgery on allegations of genocide and terrorism. ''There've been something like a total of 3197 cases'' of
 
-The Query is: pinochet
-No relevant documents present for this query!
+The Document is: C:\Users\Ishh\Downloads\Assignments\IR\Project part 2\temp1\APW19981017.0306
+The Headline is: British police arrest Pinochet on murder charges
+The Probability is: -17.551857591442573
+The Snippet is: LONDON (AP) _ British police said Saturday they have arrested former Chilean dictator Gen. Augusto Pinochet on allegations of murdering Spanish citizens during his years in power. Pinochet 82 in London for surgery was held Friday night after British authorities received a Spanish extradition warrant a
 
-The Query is: killings
-No relevant documents present for this query!
+The Document is: C:\Users\Ishh\Downloads\Assignments\IR\Project part 2\temp1\APW19981105.0282
+The Headline is: Bin Laden `hero' to some who warn U.S. against his capture
+The Probability is: -18.961407186129406
+The Snippet is: ISLAMABAD Pakistan (AP) _ An Islamic militant group on Thursday threatened to retaliate if Saudi dissident Osama bin Laden is arrested and described Washington's No. 1 enemy as a ``hero'' to Muslims worldwide. Bin Laden believed to be in Afghanistan and a top aide were
+
+The Document is: C:\Users\Ishh\Downloads\Assignments\IR\Project part 2\temp1\APW19981106.0520
+The Headline is: Car bomb explodes; Israel suspends ratification of peace accord
+The Probability is: -19.40907269309946
+The Snippet is: JERUSALEM (AP) _ A car bomb exploded Friday in a Jerusalem market crowded with Israelis shopping for the Sabbath. The blast killed two apparently the assailants and wounded 21 Israelis. In response Israel's Cabinet suspended implementation of the new peace accord with the Palestinians.
+
+The Document is: C:\Users\Ishh\Downloads\Assignments\IR\Project part 2\temp1\APW19981106.0572
+The Headline is: Car bomb explodes; Israel suspends ratification of peace accord
+The Probability is: -19.72713338187289
+The Snippet is: JERUSALEM (AP) _ A car bomb blew up Friday in a Jerusalem market crowded with Israelis shopping for the Sabbath. The blast killed two assailants wounded 21 Israelis and prompted Israel to suspend implementation of the peace accord with the Palestinians.
+
+The Query is: influential lawmaker
+The Document is: C:\Users\Ishh\Downloads\Assignments\IR\Project part 2\temp1\APW19981017.0151
+The Headline is: Lawmaker: Britain must question Gen. Pinochet about killings
+The Probability is: -14.885190200829298
+The Snippet is: LONDON (AP) _ An influential lawmaker from the governing Labor Party on Saturday backed Spanish requests to question former Chilean dictator Gen. Augusto Pinochet in London for back surgery on allegations of genocide and terrorism. ''There've been something like a total of 3197 cases'' of
 

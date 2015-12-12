@@ -61,7 +61,10 @@ public class Dictionary extends GlobalOffset {
 	public long getDocumentFrequencyOfTerm() {
 		//System.out.println(docIdsOfTerm.size() == this.documentFrequencyOfTerm);
 		//return this.documentFrequencyOfTerm;
-		return docIdsOfTerm.size();
+		if(!docIdsOfTerm.isEmpty()) {
+			return docIdsOfTerm.size();
+		}
+		return documentFrequencyOfTerm;
 	}
 
 	public int getOffset() {

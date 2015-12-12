@@ -3,6 +3,7 @@ package edu.binghamton.my.main;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.File;
+import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
@@ -82,9 +83,10 @@ public class QueryProcessor {
 
 				Posting posting = null;
 				List<Posting> postingList = new ArrayList<Posting>();
+				int offset = dict.getOffset();
 				for(int i=0; i<noOfDocs; i++) {
-					//line = getPostingsOnOffset(reader1, dict.getOffset());
-					//line = reader1.readLine();
+					//line = getPostingsOnOffset(offset++, postingsFile);
+					line = reader1.readLine();
 					if(line != null && !"".equalsIgnoreCase(line.trim())) {
 						inputs1 = line.split(",");
 						docId = Integer.parseInt(inputs1[0]);
@@ -136,6 +138,16 @@ public class QueryProcessor {
 				echoError(QUERY_PROCESSING_ERROR_MESSAGE + ": " + e.getMessage());
 			}
 		}
+	}
+
+	private static String getPostingsOnOffset(int offset, File postingsFile) throws IOException {
+		BufferedReader reader1 = new BufferedReader(new FileReader(postingsFile));
+		int lineCount = 0;
+		String line = "";
+		while((line = reader1.readLine()) != null && lineCount++ != offset);
+
+		reader1.close();
+		return line;
 	}
 
 	private static void outputResults(BufferedWriter writer, String query, List<RankingInfo> docsRankList) throws IOException {
