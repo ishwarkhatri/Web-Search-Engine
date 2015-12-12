@@ -83,7 +83,8 @@ public class QueryProcessor {
 				Posting posting = null;
 				List<Posting> postingList = new ArrayList<Posting>();
 				for(int i=0; i<noOfDocs; i++) {
-					line = reader1.readLine();
+					//line = getPostingsOnOffset(reader1, dict.getOffset());
+					//line = reader1.readLine();
 					if(line != null && !"".equalsIgnoreCase(line.trim())) {
 						inputs1 = line.split(",");
 						docId = Integer.parseInt(inputs1[0]);
