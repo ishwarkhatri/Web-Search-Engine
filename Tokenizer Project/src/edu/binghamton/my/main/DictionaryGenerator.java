@@ -25,6 +25,7 @@ public class DictionaryGenerator {
 
 	private static List<Document> documentList = new ArrayList<Document>();
 	private static Map<String,Dictionary> dictionaryMap = new HashMap<String, Dictionary>();
+	private static long totalWordCount;
 
 	public static void main(String[] args) throws IOException {
 		if(args.length != 1) {
@@ -53,7 +54,7 @@ public class DictionaryGenerator {
 			List<String> tokens = Tokenizer.tokenize(f);
 			doc.setWordCount(tokens.size());
 			documentList.add(doc);
-			//totalWordCount += tokens.size();
+			totalWordCount += tokens.size();
 			addTokensToDictionary(tokens, doc.getDocumentNumber());
 		}
 
@@ -79,7 +80,7 @@ public class DictionaryGenerator {
 		BufferedWriter bw3 = null;
 		try{
 			bw3 = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(Constants.SUMMARY_FILE_NAME)));
-			bw3.write("Total word count: " + dictionaryMap.size());
+			bw3.write("Total word count: " + totalWordCount);
 		} finally {
 			bw3.flush();
 			bw3.close();
