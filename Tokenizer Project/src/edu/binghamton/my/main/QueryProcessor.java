@@ -140,16 +140,6 @@ public class QueryProcessor {
 		}
 	}
 
-	private static String getPostingsOnOffset(int offset, File postingsFile) throws IOException {
-		BufferedReader reader1 = new BufferedReader(new FileReader(postingsFile));
-		int lineCount = 0;
-		String line = "";
-		while((line = reader1.readLine()) != null && lineCount++ != offset);
-
-		reader1.close();
-		return line;
-	}
-
 	private static void outputResults(BufferedWriter writer, String query, List<RankingInfo> docsRankList) throws IOException {
 		Collections.sort(docsRankList);
 		String data = Constants.QUERY_PRINT_MESSAGE + query + "\n";

@@ -1,4 +1,4 @@
-The Query is: Pinochet killings
+The Query is: pinochet killings
 The Document is: C:\Users\Ishh\Downloads\Assignments\IR\Project part 2\temp1\APW19981017.0151
 The Headline is: Lawmaker: Britain must question Gen. Pinochet about killings
 The Probability is: -12.943935937093393
@@ -23,10 +23,4 @@ The Document is: C:\Users\Ishh\Downloads\Assignments\IR\Project part 2\temp1\APW
 The Headline is: Car bomb explodes; Israel suspends ratification of peace accord
 The Probability is: -19.72713338187289
 The Snippet is: JERUSALEM (AP) _ A car bomb blew up Friday in a Jerusalem market crowded with Israelis shopping for the Sabbath. The blast killed two assailants wounded 21 Israelis and prompted Israel to suspend implementation of the peace accord with the Palestinians.
-
-The Query is: influential lawmaker
-The Document is: C:\Users\Ishh\Downloads\Assignments\IR\Project part 2\temp1\APW19981017.0151
-The Headline is: Lawmaker: Britain must question Gen. Pinochet about killings
-The Probability is: -14.885190200829298
-The Snippet is: LONDON (AP) _ An influential lawmaker from the governing Labor Party on Saturday backed Spanish requests to question former Chilean dictator Gen. Augusto Pinochet in London for back surgery on allegations of genocide and terrorism. ''There've been something like a total of 3197 cases'' of
 
